@@ -111,6 +111,8 @@ We want it to be for EVERYONE who loves food.
 
 ## APPLICATION ARCHITECTURE DIAGRAM
 
+<img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP"><br>
+
 ---
 
 ## USER STORIES
