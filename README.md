@@ -99,9 +99,13 @@ We want it to be for EVERYONE who loves food.
 
 ## ERD
 
+<img src="docs/ERD-food-connection.png" alt="food connection erd"><br>
+
 ---
 
 ## DATAFLOW DIAGRAM
+
+<img src="docs/dataflow-food-connection.png" alt="food connection dataflow"><br>
 
 ---
 
@@ -110,6 +114,97 @@ We want it to be for EVERYONE who loves food.
 ---
 
 ## USER STORIES
+
+**USERS WANTING TO UPLOAD RECIPES**
+
+As a mom, I want to share my recipes with my children so they can cook at their homes.
+
+As a restaurant owner, I want to share my recipes so the customers of my restaurant can reproduce my best sellers at home.
+
+As a chef, I want to store my recipes so I can make a collection of recipes.
+
+As an international student, I want to store my favourite recipes so I can prepare them when I'm living abroad.
+
+As a family member, I want to store grandma's recipes so that all members of my family can access them.
+
+As a new user, I want to create an account so I can access it often to upload my recipes.
+
+As a user, I want to store my favourite recipe so other users can connect with other users with similar tastes.
+
+As a user, I want to choose the right cuisine so others can understand the background of the recipe.
+
+As a user, I want to easily find the pages available for me so I can understand the website proposal.
+
+As a user, I want to submit my recipe so I can find it on my recipes page.
+
+As a user, I want to see the recipe's rankings so I can choose one to cook tonight.
+
+As a user, I want to save my favourite recipes so I can access them during the week for a variation on dinner.
+
+**USERS WANTING TO FIND A RECIPE**
+
+As a mom, I want to find a recipe so I can cook a different family meal.
+
+As a restaurant owner, I want to find a popular recipe so I can add in my restaurant's menu.
+
+As a chef, I want to find a new recipe so I can improve my skills.
+
+As a student living by myself, I want to find a recipe so I can use the ingredients that I have in the fridge.
+
+As a family member, I want to find a new recipe so I can cook tonight for the family meal.
+
+As a member of a group of friends, I want to find a breakfast recipe so I can make it tomorrow morning for our meeting.
+
+As a new user, I want to create an account so I can visit different recipes.
+
+As a new user, I want to read about the recipe of the week so I can cook during the weekend.
+
+As a user, I want to search for a recipe to find the one that matches my weekend event.
+
+As a user, I want to save the recipe from last night so I can cook it again next month.
+
+As a user, I want to find a recipe that matches my dietary requirements so I can cook a safe dish.
+
+As a user, I want to search for a specific cuisine so I can cook a different meal for my family.
+
+As a user, I want to find a well rated recipe so I can cook something delicious for my family tonight.
+
+As a user I want to search for some dessert so I can prepare something to take to my friend's house tomorrow.
+
+**USERS WANTING TO INTERACT VIA REVIEWS**
+
+As a mom, I want to leave a review so I can share my experience doing that dish.
+
+As a chef, I want to leave a review so I can share useful tips for other users.
+
+As a family member, I want to leave a comment so I can share my family's opinion after eating that dish.
+
+As a student living by myself, I want to leave a comment on my favourite recipes so other users can try to cook it at home.
+
+As a user, I would like to read some reviews of the best recipes on the site so that I can choose the most suitable dish for my dinner.
+As a user, I want to select the best recipes so I can cook something delicious at home this weekend.
+
+As a user, I want to save the highly-rated recipe so I can try it at home someday.
+
+**USERS WANTING THE CONNECTION OF REVIEWS**
+
+As a user, I want to read the reviews that others left in my recipes so I can understand their perception.
+
+As a user, I want to see the reviews that I wrote so I can select the ideal dish for tonight.
+
+As a user, I want to know the best review in my recipes' list to prepare me for my weekend event.
+
+As a user, I want to read the comments to get an overview of the perception about the last recipe I added.
+
+**ADMIN**
+
+As the admin, I want to know how many users created an account in the last month so I can understand the success of the website.
+
+As the admin, I want to know how many users have unsubscribed in the last month so I can understand what is failing.
+
+As the admin, I want to understand what users are expecting from the site so I send surveys regularly.
+
+As the admin, I want to disable a user account as the user broke the rules.
 
 ---
 
