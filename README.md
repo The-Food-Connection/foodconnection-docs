@@ -224,6 +224,10 @@ In addition, the user can access the "My Recipes" page, which retrieves from the
 
 <img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP" width="1200"><br>
 
+The application architecture presents two structures for deployment, being Heroku (backend) and Netlify (frontend). Netlify will handle the React.js components and will correspond to the client layer having the views of the website. Heroku will manipulate Rails controllers and models, as well as PostgreSQL database equivalent to API and database layers.
+
+Cloud technology, such as the AWS S3 bucket for storing images attached to recipes on website pages, is being used to provide additional support for the application. And third-party APIs to add information that facilitates the best use of some functionality of the website by the user, such as adding ingredients when filling out the recipes page.
+
 ---
 
 # USER STORIES
