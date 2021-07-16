@@ -1,6 +1,6 @@
 # THE FOOD CONNECTION <!-- omit in toc --> 
 
-<img src="docs/FC Logo.JPG" alt="food connection logo" width="500"><br>
+<img src="docs/FC Logo.JPG" alt="food connection logo" width="600"><br>
 
 ## T3A2 - PART A <!-- omit in toc --> 
 
@@ -10,9 +10,9 @@
 
 ---
 
-**FULL STACK WEB APPLICATION DOCUMENTATION** <!-- omit in toc --> 
+## **FULL STACK WEB APPLICATION DOCUMENTATION** <!-- omit in toc --> 
 
-## CONTENTS <!-- omit in toc --> 
+# CONTENTS <!-- omit in toc --> 
 
 - [PURPOSE](#purpose)
 - [FUNCTIONALITY](#functionality)
@@ -29,7 +29,7 @@
 
 ---
 
-## PURPOSE
+# PURPOSE
 
 ‘The Food Connection’ ……. Food for Everyone.
 
@@ -45,7 +45,7 @@ Enjoy The Connection of Food.....
 
 ---
 
-## FUNCTIONALITY
+# FUNCTIONALITY
 
 - *Website usability* - allows the user to visit different pages that bring different content on the same theme.
 
@@ -77,7 +77,7 @@ Enjoy The Connection of Food.....
 
 ---
 
-## FEATURES
+# FEATURES
 
 - *Sign up page* - personalized registration page to facilitate user access and better use of the site.
 
@@ -113,7 +113,7 @@ Enjoy The Connection of Food.....
 
 ---
 
-## TARGET AUDIENCE
+# TARGET AUDIENCE
 
 Due to the covid-19 pandemic, everyday life changed completely, especially in regions where lockdowns were implemented to try to cease the spread of the virus. Then countless people lost their jobs or started working or studying from home, some restaurants were affected by going bankrupt or temporarily closing.
 
@@ -137,7 +137,7 @@ We want it to be for EVERYONE who loves food.
 
 ---
 
-## TECH STACK
+# TECH STACK
 
 **FRONT END** - HTML5, CSS3, REACT, JAVASCRIPT, JSX, BOOTSTRAP
 
@@ -157,9 +157,9 @@ We want it to be for EVERYONE who loves food.
 
 ---
 
-## ERD
+# ERD
 
-<img src="docs/ERD-food-connection.png" alt="food connection erd"><br>
+<img src="docs/ERD-food-connection.png" alt="food connection erd" width="1200"><br>
 
 The `user` table is related to `recipe` and `rating` tables, as a user with an account on the website can post recipes as well as ratings and comments on another user's recipe.
 
@@ -208,9 +208,9 @@ The models `recipe_dietary` and `recipe_ingredient` are collecting information a
 
 ---
 
-## DATAFLOW DIAGRAM
+# DATAFLOW DIAGRAM
 
-<img src="docs/dataflow-food-connection.png" alt="food connection dataflow"><br>
+<img src="docs/dataflow-food-connection.png" alt="food connection dataflow" width=" 1200"><br>
 
 The Food Connection user, once registered, can log in by entering their username and password, receiving access to the website's resources as output so that they can start the journey through the website. If the user is registered as an admin, having free access to the entire content of the site as output and being able to delete content or users if necessary.
 
@@ -220,15 +220,15 @@ In addition, the user can access the "My Recipes" page, which retrieves from the
 
 ---
 
-## APPLICATION ARCHITECTURE DIAGRAM
+# APPLICATION ARCHITECTURE DIAGRAM
 
-<img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP"><br>
+<img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP" width="1200"><br>
 
 ---
 
-## USER STORIES
+# USER STORIES
 
-**USERS WANTING TO UPLOAD RECIPES**
+### **USERS WANTING TO UPLOAD RECIPES** <!-- omit in toc --> 
 
 As a mom, I want to share my recipes with my children so they can cook at their homes.
 
@@ -254,7 +254,9 @@ As a user, I want to see the recipe's rankings so I can choose one to cook tonig
 
 As a user, I want to save my favourite recipes so I can access them during the week for a variation on dinner.
 
-**USERS WANTING TO FIND A RECIPE**
+<br>
+
+### **USERS WANTING TO FIND A RECIPE** <!-- omit in toc --> 
 
 As a mom, I want to find a recipe so I can cook a different family meal.
 
@@ -284,7 +286,9 @@ As a user, I want to find a well rated recipe so I can cook something delicious 
 
 As a user I want to search for some dessert so I can prepare something to take to my friend's house tomorrow.
 
-**USERS WANTING TO INTERACT VIA REVIEWS**
+<br>
+
+### **USERS WANTING TO INTERACT VIA REVIEWS** <!-- omit in toc --> 
 
 As a mom, I want to leave a review so I can share my experience doing that dish.
 
@@ -295,11 +299,14 @@ As a family member, I want to leave a comment so I can share my family's opinion
 As a student living by myself, I want to leave a comment on my favourite recipes so other users can try to cook it at home.
 
 As a user, I would like to read some reviews of the best recipes on the site so that I can choose the most suitable dish for my dinner.
+
 As a user, I want to select the best recipes so I can cook something delicious at home this weekend.
 
 As a user, I want to save the highly-rated recipe so I can try it at home someday.
 
-**USERS WANTING THE CONNECTION OF REVIEWS**
+<br>
+
+### **USERS WANTING THE CONNECTION OF REVIEWS** <!-- omit in toc --> 
 
 As a user, I want to read the reviews that others left in my recipes so I can understand their perception.
 
@@ -309,7 +316,9 @@ As a user, I want to know the best review in my recipes' list to prepare me for 
 
 As a user, I want to read the comments to get an overview of the perception about the last recipe I added.
 
-**ADMIN**
+<br>
+
+### **ADMIN** <!-- omit in toc --> 
 
 As the admin, I want to know how many users created an account in the last month so I can understand the success of the website.
 
@@ -321,15 +330,139 @@ As the admin, I want to disable a user account as the user broke the rules.
 
 ---
 
-## WIRE FRAMES
+# WIRE FRAMES
+
+<img src="docs/wf01_home.png" alt="wireframe 1" width="1000"><br>
+
+<img src="docs/wf02_signup.png" alt="wireframe 2" width="1000"><br>
+
+<img src="docs/wf03_home.png" alt="wireframe 3" width="1000"><br>
+
+<img src="docs/wf04_singlerecipe.png" alt="wireframe 4" width="1000"><br>
+
+<img src="docs/wf05_rating.png" alt="wireframe 5" width="1000"><br>
+
+<img src="docs/wf06_userprofile.png" alt="wireframe 6" width="1000"><br>
+
+<img src="docs/wf07_myrecipes.png" alt="wireframe 7" width="1000"><br>
+
+<img src="docs/wf08_newrecipe.png" alt="wireframe 8" width="1000"><br>
+
+<img src="docs/wf09_editrecipe.png" alt="wireframe 9" width="1000"><br>
+
+<img src="docs/wf10_admin.png" alt="wireframe 10" width="1000"><br>
 
 ---
 
-## PLANNING OVERVIEW
+# PLANNING OVERVIEW
+
+The Food Connection is a project managed with Agile methodology. The overall plan for the team from the beginning was to work together for the documentation, then branch out to features when coding the api and client. We were lucky enough to spepnd the first four real project days together, so worked separately at night on documentation in our Google Docs folders based on the split we decided during the day, then came together to work on creating our api in person. This allowed us to really plan solidly how we wanted to move forward when we split. 
+
+We documented our progress from that point in both Trello visually, and in a written daily diary of what we achieved, what issues we had and what we were moving towards working on.
+
+We wanted to break the process down into chunks, then tackle those depending on what strengths fell where.  Vanessa worked a lot of the diagrams side of the Readme, while I worked on the wire frames and the logo and the Readme setup. We didn't approach anything as as sprint until we started coding and went into lockdown and had to work completely remotely. This meant we needed to be fully on top of when tasks were being created and finished.
+
+For the feedback side of the project, we worked with fully shared tasks, ie. we screen shared in VS Code, we project shared in Trello, and we had access to a Google Docs folder where all our documentation and diagrams were housed.  We shared access to any diagram creating sites as well so we could work simultaneously. We then created an Organisation folder in GitHub where we stored three repositories where we both had full access. This meant we were consistently talking to each other about our tasks, and fully accross what we could be. The only extra we would have liked was access to shared wire frames, but were not able to have the shared advantage in there on our student membership. 
+
+Our plan for the app build is to utilise Git branches for our features.  We will plan these at the start of each day, as the final time left for our project after Part A is the length of one sprint (minus a few days). We will plan the entire sprint as well on the Monday, but due to being remote we want to stay in touch as regularly as possible.  The ability to share our VS Code and local servers will mean we are constantly in contact with eachother and able to give feedback and help as we go. We are going to simulate the role of the client, and keep that in mind when querying the components in react, and the various elements on the page. Discussing why we are making the choices we are, and how those choices will effect the output and overall project should help us think how we would if were in regular contact with our client. 
 
 ---
 
-## PROJECT MANAGEMENT SCREENSHOTS AND DIARY
+# PROJECT MANAGEMENT SCREENSHOTS AND DIARY
+
+<img src="docs/00_firstweekendtrello.jpg" alt="trello 00" width="1000"><br>
+
+<img src="docs/01_120721.jpg" alt="trello 01" width="1000"><br>
+
+<img src="docs/02_120721updatedheaders.jpg" alt="trello 02" width="1000"><br>
+
+<img src="docs/03_130721-1.jpg" alt="trello 03" width="1000"><br>
+
+<img src="docs/04_130721-2.jpg" alt="trello 04" width="1000"><br>
+
+<img src="docs/05_140721.jpg" alt="trello 05" width="1000"><br>
+
+<img src="docs/06_150721.JPG" alt="trello 06" width="1000"><br>
+
+<img src="docs/07_160721.jpg" alt="trello 07" width="1000"><br>
+
+**DIARY OF TASKS PER DAY FROM DAY ONE TO DAY ELEVEN (PART A)**
+
+***THE FOOD CONNECTION***
+***DAILY DIARY***
+
+***DAY ONE***
+
+- Discussed ideas for projects - Recipe rating site, dish rating site, fashion logging site, outfit review site
+- Decided on a recipe  based site
+- Talked about potential functionality
+- Submitted idea to Dan and Jurek - this was a typed proposal with purpose and target audience, problem it solves, and beginning ERD
+- Created checklist of tasks from the Assignment Releases
+- Created Shared google docs, and charts on lucid chart so we can access and work simultaneously
+
+***DAY TWO - Friday 9th July 2021***
+
+- Sent updated ERD to Dan and Jurek
+- Decided on changes to ERD and tables for Database
+- Created the first wire frame
+- Started really setting up our Trello board
+- Started discussing who would do what for some of the Part A tasks
+- Created README file in google docs
+- Created File to store imagery ideas
+- Started Long Presentation file
+
+***DAY THREE AND FOUR - WEEKEND***
+
+- Worked on all the above tasks and trying to get things organised and planned
+
+***DAY FIVE - Monday 12th July 2021***
+
+- First time in person together - went over all project related docs
+- Discussed everything we wanted to achieve Mon-Wed in person
+- Set up our site map - to be finished
+- Went over our Trello together - updated the visuals with list headers
+
+***DAY SIX - Tuesday 13th July 2021***
+
+- Went over our ERD
+- Created our Organisation on Github, and created our three repos for the Parts and Docs
+- Started our Rails api build
+- Researched our next step with api build
+- Did Rspec lessons in class - perfect timing
+- Updated Trello to reflect new decisions and updates - made the cards easier to follow 
+- Worked on Data Flow Diagram
+- Worked on Architecture Diagram
+- Started our daily diary to log all our work (this current file)
+
+***DAY SEVEN - Wednesday 14th July 2021***
+
+- Finalised Data Flow Diagram
+- Created Food Connection Logo
+- Built our Models for all tables
+- Created our Controllers for all tables needed
+- Lesson on Testing for React was entire afternoon at school
+- Set up Seeding file for users and recipes
+- Encountered issues with seeding file - need help
+- Drew up more Wire Frames
+
+***DAY EIGHT - Thursday 15th July 2021***
+
+- Worked together in person to validate our recipe model and controller
+- Validated and set up bcrypt and jwt for our user model - not finished
+- Set up 7 postman requests - recipe and user
+- Worked on the README
+- Worked on Wire Frames
+- Planned our next day of work
+
+***DAY NINE - Friday 16th July 2021***
+
+- Vanessa wrote out explanations for our diagrams
+- We fixed a seeding issue with our rails seed file
+- Suz worked on tablet and mobile wire frames
+- Suz worked on Readme and added the notes for the project planning and diary
+- Trello screenshots added to Readme - need to add the rest on Sunday
+- Vanessa trouble shot our Thursday Rail setup
+- We aim to finish our user setup with lesson videos
 
 ---
 
