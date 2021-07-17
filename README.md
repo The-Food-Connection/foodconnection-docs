@@ -388,6 +388,10 @@ Our plan for the app build is to utilise Git branches for our features.  We will
 
 # PROJECT MANAGEMENT SCREENSHOTS AND DIARY
 
+TRELLO LINK
+
+https://trello.com/b/fd1hUd20/rails-react-app
+
 FIRST WEEKEND
 
 <img src="docs/00_firstweekendtrello.jpg" alt="trello 00" width="1000"><br>
@@ -501,6 +505,14 @@ FIRST WEEKEND
 - Trello screenshots added to Readme - need to add the rest on Sunday
 - Vanessa trouble shot our Thursday Rail setup
 - We aim to finish our user setup with lesson videos
+
+***DAY TEN - Saturday 17th July 2021***
+
+
+
+***DAY ELEVEN - Sunday 18th July 2021***
+
+
 
 ---
 
