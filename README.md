@@ -281,25 +281,39 @@ As the admin, I want to disable a user account as the user broke the rules.
 
 # WIRE FRAMES
 
+We used Balsamiq to create our Wireframes.  This allowed us to have low fidelity wireframes, with all the visualations we needed to start creating our app in react. We could also create the journey between elements on each page, and export them to an interactive pdf. The process of creating these relationships allowed us to realise we had missed key design elements, or necessary wireframes needed to complete the user experience. 
+
 <img src="docs/wf01_home.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf02_signup.png" alt="wireframe 2" width="1000"><br>
+<img src="docs/wf02_signup.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf03_home.png" alt="wireframe 3" width="1000"><br>
+<img src="docs/wf03_home.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf04_singlerecipe.png" alt="wireframe 4" width="1000"><br>
+<img src="docs/wf04_breakfast.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf05_rating.png" alt="wireframe 5" width="1000"><br>
+<img src="docs/wf05_lunch.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf06_userprofile.png" alt="wireframe 6" width="1000"><br>
+<img src="docs/wf06_dinner.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf07_myrecipes.png" alt="wireframe 7" width="1000"><br>
+<img src="docs/wf07_dessert.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf08_newrecipe.png" alt="wireframe 8" width="1000"><br>
+<img src="docs/wf08_singlerecipe.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf09_editrecipe.png" alt="wireframe 9" width="1000"><br>
+<img src="docs/wf09_rating.png" alt="wireframe 1" width="1000"><br>
 
-<img src="docs/wf10_admin.png" alt="wireframe 10" width="1000"><br>
+<img src="docs/wf10_userprofile.png" alt="wireframe 1" width="1000"><br>
+
+<img src="docs/wf11_myrecipes.png" alt="wireframe 1" width="1000"><br>
+
+<img src="docs/wf12_newrecipe.png" alt="wireframe 1" width="1000"><br>
+
+<img src="docs/wf13_editrecipe.png" alt="wireframe 1" width="1000"><br>
+
+<img src="docs/wf14_admin.png" alt="wireframe 1" width="1000"><br>
+
+**PROTOTYPE DOCUMENT - PDF showing Prototype Journey**
+
+[GOOGLE DOCS LINK - FOOD CONNECTION INTERACTIVE PDF](https://drive.google.com/file/d/1WcVNIM-IMCi0MPm1Yjb2B5dekNyYAEgG/view?usp=sharing)
 
 ---
 
@@ -319,21 +333,41 @@ Our plan for the app build is to utilise Git branches for our features.  We will
 
 # PROJECT MANAGEMENT SCREENSHOTS AND DIARY
 
+FIRST WEEKEND
+
 <img src="docs/00_firstweekendtrello.jpg" alt="trello 00" width="1000"><br>
+
+12th JULY 2021
 
 <img src="docs/01_120721.jpg" alt="trello 01" width="1000"><br>
 
 <img src="docs/02_120721updatedheaders.jpg" alt="trello 02" width="1000"><br>
 
+13th JULY 2021
+
 <img src="docs/03_130721-1.jpg" alt="trello 03" width="1000"><br>
 
 <img src="docs/04_130721-2.jpg" alt="trello 04" width="1000"><br>
 
+14th JULY 2021
+
 <img src="docs/05_140721.jpg" alt="trello 05" width="1000"><br>
+
+15th JULY 2021
 
 <img src="docs/06_150721.JPG" alt="trello 06" width="1000"><br>
 
+16th JULY 2021
+
 <img src="docs/07_160721.jpg" alt="trello 07" width="1000"><br>
+
+17th JULY 2021
+
+
+
+18th JULY 2021
+
+
 
 **DIARY OF TASKS PER DAY FROM DAY ONE TO DAY ELEVEN (PART A)**
 
