@@ -159,7 +159,7 @@ We want it to be for EVERYONE who loves food.
 
 # ERD
 
-<img src="docs/ERD-food-connection.png" alt="food connection erd" width="1200"><br>
+<img src="docs/ERD-foodconnection.png" alt="food connection erd" width="1200"><br>
 
 The `user` table is related to `recipe` and `rating` tables, as a user with an account on the website can post recipes as well as ratings and comments on another user's recipe.
 
@@ -222,9 +222,9 @@ In addition, the user can access the "My Recipes" page, which retrieves from the
 
 # APPLICATION ARCHITECTURE DIAGRAM
 
-<img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP" width="1200"><br>
+<img src="docs/application-architecture.png" alt="food connection application architecture WIP" width="1200"><br>
 
-The application architecture presents two structures for deployment, being Heroku (backend) and Netlify (frontend). Netlify will handle the React.js components and will correspond to the client layer having the views of the website. Heroku will manipulate Rails controllers and models, as well as PostgreSQL database equivalent to API and database layers.
+This 2-layered application architecture presents the Heroku (backend + database) and Netlify (frontend). Netlify will handle the React.js components and will correspond to the client layer having the views of the website. Heroku will manipulate Rails controllers and models, as well as PostgreSQL database equivalent to API and database layers.
 
 Cloud technology, such as the AWS S3 bucket for storing images attached to recipes on website pages, is being used to provide additional support for the application. And third-party APIs to add information that facilitates the best use of some functionality of the website by the user, such as adding ingredients when filling out the recipes page.
 
