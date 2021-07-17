@@ -161,17 +161,72 @@ We want it to be for EVERYONE who loves food.
 
 <img src="docs/ERD-food-connection.png" alt="food connection erd" width="1200"><br>
 
+The `user` table is related to `recipe` and `rating` tables, as a user with an account on the website can post recipes as well as ratings and comments on another user's recipe.
+
+The `recipe` table is related to `rating`, `user`, `dietary_category` and `ingredient` tables. As dietary_categories and ingredients support a many-to-many relationship with recipes, two intermediate tables have been added to connect them, ie `recipe_dietary` and `recipe_ingredient` act to intermediate the relationship making it easier to handle database content.
+
+The Food Connection in terms of the model's relationships and associations:
+
+A user `has_many recipes and ratings` and `has_secure_password`
+
+```ruby
+    has_many :recipes, dependent: :destroy
+    has_many :ratings, dependent: :destroy
+    has_secure_password
+```
+
+A recipe `has_many ratings`, while rating `belongs_to user and recipe` and is optional
+
+```ruby
+  belongs_to :user, optional: true
+  belongs_to :recipe, optional: true
+```
+
+A recipe `has_many dietary_category` through `recipe_dietary`
+
+A recipe `has_many ingredients` through `recipe_ingredient`
+
+A recipe `has_one_attached image`
+
+```ruby
+  belongs_to :user
+  has_many :ingredients, through: :recipe_ingredients
+  has_many :dietary_categories, through: :recipe_dietaries
+  has_many :ratings
+  has_one_attached :image
+```
+
+The models `recipe_dietary` and `recipe_ingredient` are collecting information about the dietary_category and ingredient tables to link to the recipe table.
+
+```ruby
+    has_many :recipe_ingredients
+```
+
+```ruby
+    has_many :recipe_dietary
+```
+
 ---
 
 # DATAFLOW DIAGRAM
 
 <img src="docs/dataflow-food-connection.png" alt="food connection dataflow" width=" 1200"><br>
 
+The Food Connection user, once registered, can log in by entering their username and password, receiving access to the website's resources as output so that they can start the journey through the website. If the user is registered as an admin, having free access to the entire content of the site as output and being able to delete content or users if necessary.
+
+As soon as the user accesses the homepage, all recipes will be requested from the database, populating the homepage. From there, the user can access a specific recipe of their choice, which also retrieves the information from the database, leading them to a new page.
+
+In addition, the user can access the "My Recipes" page, which retrieves from the database all recipes already added by the user, showing them on the page. If the user has not added any recipes, this page will be empty.
+
 ---
 
 # APPLICATION ARCHITECTURE DIAGRAM
 
 <img src="docs/application-architecture-wip.png" alt="food connection application architecture WIP" width="1200"><br>
+
+The application architecture presents two structures for deployment, being Heroku (backend) and Netlify (frontend). Netlify will handle the React.js components and will correspond to the client layer having the views of the website. Heroku will manipulate Rails controllers and models, as well as PostgreSQL database equivalent to API and database layers.
+
+Cloud technology, such as the AWS S3 bucket for storing images attached to recipes on website pages, is being used to provide additional support for the application. And third-party APIs to add information that facilitates the best use of some functionality of the website by the user, such as adding ingredients when filling out the recipes page.
 
 ---
 
