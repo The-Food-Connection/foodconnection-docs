@@ -422,15 +422,12 @@ FIRST WEEKEND
 
 17th JULY 2021
 
-
-
-18th JULY 2021
-
-
+<img src="docs/08_170721.JPG" alt="trello 08" width="1000"><br>
 
 **DIARY OF TASKS PER DAY FROM DAY ONE TO DAY ELEVEN (PART A)**
 
 ***THE FOOD CONNECTION***
+
 ***DAILY DIARY***
 
 ***DAY ONE***
@@ -508,11 +505,20 @@ FIRST WEEKEND
 
 ***DAY TEN - Saturday 17th July 2021***
 
-
+- Finished Wireframes
+- Created Prototype Links in Balsamiq to export pdf of prototypes
+- Finished JWT setup
+- Shared team master key
+- Added token test for future problems
+- Created React App for Client
+- Finalised README for Part A
+- Set up Starting Components in React App 
+- Divided Starting React Tasks for work over the next 24 hours
 
 ***DAY ELEVEN - Sunday 18th July 2021***
 
-
+- Continued to work on branches for react components
+- Finalised and submitted Readme Part A
 
 ---
 
