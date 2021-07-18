@@ -10,6 +10,20 @@
 
 ---
 
+GITHUB REPOSITORY FOR DOCUMENTATION
+
+https://github.com/The-Food-Connection/foodconnection-docs
+
+GITHUB REPOSITORY FOR API
+
+https://github.com/The-Food-Connection/foodconnection-api
+
+GITHUB REPOSITORY FOR CLIENT
+
+https://github.com/The-Food-Connection/foodconnection-client
+
+---
+
 ## **FULL STACK WEB APPLICATION DOCUMENTATION** <!-- omit in toc --> 
 
 # CONTENTS <!-- omit in toc --> 
